@@ -47,10 +47,10 @@ task S3Up (type: io.jumpco.open.gradle.s3.S3Upload) {
 build.dependsOn S3Up
 S3Up.dependsOn zip
 build.dependsOn zip
-//zip.dependsOn npm_build
+zip.dependsOn npm_build
 build.dependsOn npm_build
 npm_build.dependsOn npm_install
-npm_build.dependsOn npm_update
+//npm_build.dependsOn npm_update
 npm_build.dependsOn npm_test
 npm_test.dependsOn npm_install
 
