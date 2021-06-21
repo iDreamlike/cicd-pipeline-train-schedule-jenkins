@@ -32,8 +32,8 @@ task zip(type: Zip){
 }
 
 s3 {
-    awsAccessKeyId = 'AKIAUSONYJ6RYIYHRNUA'
-    awsSecretAccessKey = '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'
+    awsAccessKeyId = 'xxxx'
+    awsSecretAccessKey = 'xxxxxxxx'
     region = 'us-east-2'
     bucket = "gradle-backet"
 }
